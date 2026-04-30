@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D1B2A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp">
+
+        <TextView
+            android:id="@+id/tvSettingsTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress &amp; Settings"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="20dp" />
+
+        <TextView
+            android:id="@+id/tvProfileInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile info"
+            android:textColor="#DDE6F0"
+            android:textSize="18sp"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:id="@+id/tvProgressInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Progress info"
+            android:textColor="#DDE6F0"
+            android:textSize="18sp"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:id="@+id/tvAdvice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Advice"
+            android:textColor="#AFC7E8"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/tvSettingsMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="15dp" />
+
+        <Button
+            android:id="@+id/btnResetProgress"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Reset progress"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00C9E8"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnOpenResource"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Open English resource"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00C9E8"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Logout"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00C9E8"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00C9E8" />
+
+    </LinearLayout>
+</ScrollView>
