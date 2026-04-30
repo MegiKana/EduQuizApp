@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D1B2A">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="22dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tvResultTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Quiz Result"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="28dp" />
+
+        <TextView
+            android:id="@+id/tvResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Your Score: 0 / 10"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="18dp" />
+
+        <TextView
+            android:id="@+id/tvBestScore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Best Score: 0 / 10"
+            android:textSize="20sp"
+            android:textColor="#AFC7E8"
+            android:gravity="center"
+            android:layout_marginBottom="22dp" />
+
+        <TextView
+            android:id="@+id/tvFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feedback"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:gravity="center"
+            android:layout_marginBottom="30dp" />
+
+        <Button
+            android:id="@+id/btnTryAgain"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Try again"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00C9E8"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/btnBackHome"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:text="Back home"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#00C9E8" />
+
+    </LinearLayout>
+</ScrollView>
